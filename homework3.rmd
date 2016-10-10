@@ -155,7 +155,7 @@ P(B) &=\sum_{j} P(B|A_j)P(A_j), \\
 1. Hint: `\zeta` (3 points)
 
 \begin{equation*}
-f(\zeta)=\int_{-\infty}^{\infty} f(x) e^{-2\pi ix\zeta} dx
+\hat{f}(\zeta)=\int_{-\infty}^{\infty} f(x) e^{-2\pi ix\zeta} dx
 \end{equation*}
 
 1. Hint: `\partial` (3 points)
