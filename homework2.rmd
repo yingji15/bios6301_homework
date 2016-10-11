@@ -17,6 +17,7 @@ Check your output by using the `Knit PDF` button in RStudio.
 
     1. Load the data set into R and make it a data frame called `cancer.df`. (2 points)
 ```{r}
+setwd("~/Documents/biostat_computing/bios6301_homework/")
 cancer.df<-data.frame(read.csv("cancer.csv"))
 ```
 

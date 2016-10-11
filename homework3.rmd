@@ -104,7 +104,7 @@ in the data set and remove the first two columns.
 
 1. Show the correlation matrix of this data set. (3 points)
 ```{r}
-setwd("~/Documents/biostat_computing/football-values-master/2016/")
+setwd("~/Documents/biostat_computing/bios6301_homework/")
 wr<-read.csv("./proj_wr16.csv",header=TRUE, stringsAsFactors=FALSE)
 wr<-wr[,-(1:2)]
 (cor.wr<-cor(wr))
@@ -155,7 +155,7 @@ P(B) &=\sum_{j} P(B|A_j)P(A_j), \\
 1. Hint: `\zeta` (3 points)
 
 \begin{equation*}
-f(\zeta)=\int_{-\infty}^{\infty} f(x) e^{-2\pi ix\zeta} dx
+\hat{f}(\zeta)=\int_{-\infty}^{\infty} f(x) e^{-2\pi ix\zeta} dx
 \end{equation*}
 
 1. Hint: `\partial` (3 points)
